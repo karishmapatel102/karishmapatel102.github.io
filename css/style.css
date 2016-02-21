@@ -1,0 +1,77 @@
+body {
+	background-color: rgba(255,255,255);
+	background-image: url(../images/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	/*This is a comment */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.66);
+	max-width: 600px;
+	margin: 0 auto;
+	padding:20px;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px 5px rgba(255,255,255,0.6);
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+
+}
+
+
+h3 {
+
+	cursor:pointer;
+	margin-bottom: 0;
+}
+
+
+img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	border: 40px dotted pink;
+	border-radius: 100px;
+}
+
+.intro {
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.7;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-weight: bold;
+	color:#E35B7D;
+	text-decoration: none;
+
+
+
+}
+a:hover {
+	text-decoration: underline;
+	color: #47B59A;
+}
